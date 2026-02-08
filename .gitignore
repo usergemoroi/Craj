@@ -1,0 +1,25 @@
+# Ignore all APKs except original and patched versions
+*.apk
+!SHTORMmod_original.apk
+!Shtormpatch.apk
+
+# Ignore decompiled files and temporary directories
+decompiled/
+dist/
+build/
+
+# Ignore Android tools
+apktool
+apktool.jar
+
+# Ignore keystore files (contains signing keys)
+*.keystore
+*.jks
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore patch scripts (they've done their job)
+patch_smali.py

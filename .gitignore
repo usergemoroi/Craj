@@ -2,6 +2,7 @@
 *.apk
 !SHTORMmod_original.apk
 !Shtormpatch.apk
+!Shtormpatchv2.apk
 
 # Ignore decompiled files and temporary directories
 decompiled/
